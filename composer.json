@@ -1,0 +1,33 @@
+{
+    "name": "inzh/talend-job-manager",
+    "description": "Tool for manage and run Talend job",
+    "license": "CC-BY-4.0",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Jean-Raffi Nazareth",
+            "email": "jr-nazareth@inzh.fr",
+            "role": "Developer"
+        }
+    ],
+    "time": "2022-04-10",
+    "keywords": [
+        "talend",
+        "job",
+        "talendmanager"
+    ],
+    "support": {
+        "email": "contact@inzh.fr"
+    },
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "inzh\\talend\\job\\manager\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=5.6",
+        "ext-mbstring": "*",
+        "ext-zip": "*"
+    }
+}
